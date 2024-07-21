@@ -1,5 +1,3 @@
-# Lec-2
-
 # Không gian Metric
 
 # Không gian Topo
