@@ -15,7 +15,7 @@ Chú thích:
 Tính chất:
 -  $\emptyset$ và $E$ là những tập mở của $E$.
 - Với mọi $I$ và họ các tập mở $(\Omega_i)_{i \in I}$ của $E$, $\cup_{i \in I}\Omega_i$ là một tập mở của $E$.
-- Với mọi $n \in \N^*$ và các tập mở $\Omega_{1,2,...,n}$ của $E$, $\cap_{1 \leq i \leq n}\Omega_i$ là tập mở của $E$.
+- Với mọi $n \in N^{*}$ và các tập mở $\Omega_{1,2,...,n}$ của $E$, $\cap_{1 \leq i \leq n}\Omega_i$ là tập mở của $E$.
 
 Lưu ý: Giao vô hạn các tập mở trong $E$ có thể không là tập mở trong $E$.
 
@@ -50,7 +50,7 @@ Cho $(E,d)$ là một không gian vector định chuẩn. Tập con $F \in E$ l�
 Tính chất:
 -  $\emptyset$ và $E$ là những tập đóng của $E$.
 - Với mọi tập $I$ và mọi họ các tập con đóng $(F_i)_{i \in I}$ của $E$, $\cap_{i \in I}F_i$ là một tập đóng của $E$.
-- Với mọi $n \in \N^*$ và mọi tập đóng $(F_i)_{1 \leq i \leq n}$ của $E$, $\cup_{1 \leq i \leq n}F_i$ là tập đóng của $E$.
+- Với mọi $n \in N^*$ và mọi tập đóng $(F_i)_{1 \leq i \leq n}$ của $E$, $\cup_{1 \leq i \leq n}F_i$ là tập đóng của $E$.
 - 
 Lưu ý: Hợp vô hạn các tập đóng trong $E$ có thể không là tập đóng trong $E$.
 
