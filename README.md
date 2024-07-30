@@ -5,16 +5,16 @@
 ## Định nghĩa tập mở trong không gian vector định chuẩn
 
 Cho $(E,d)$ là một không gian vector định chuẩn. Một bộ phận $\Omega \in E$ được gọi là mở khi và chỉ khi:
-$$
-\forall x \in E, \Omega \in \mathcal{V}_E(x)
-$$
+
+$$\forall x \in E, \Omega \in \mathcal{V}_E(x)$$
+
 Chú thích:
 - $E$ là một không gian vector và $d$ là hàm định chuẩn (biểu diễn khoảng cách trong không gian $E$).
 - $\mathcal{V}_E(x)$ là tập hợp tất cả các lận cận của $x$ trong không gian vector $E$.
 
 Tính chất:
 -  $\emptyset$ và $E$ là những tập mở của $E$.
-- Với mọi $I$ và họ các tập mở $(\Omega_i)_{i \in I}$ của $E$, $\cup_{i \in I}\Omega_i$ là một tập mở của $E$.
+- Với mọi $I$ và họ các tập mở $`(\Omega_i)_{i \in I}`$ của $E$, $\cup_{i \in I}\Omega_i$ là một tập mở của $E$.
 - Với mọi $n \in N^{*}$ và các tập mở $\Omega_{1,2,...,n}$ của $E$, $\cap_{1 \leq i \leq n}\Omega_i$ là tập mở của $E$.
 
 Lưu ý: Giao vô hạn các tập mở trong $E$ có thể không là tập mở trong $E$.
@@ -27,7 +27,7 @@ Cho tập hợp $X$, giả sử $\mathcal{T}$ là một họ các tập con củ
 3. Giao của hai phần tử tùy ý của họ $\mathcal{T}$ là phần tử của họ $\mathcal{T}$.
 
 Chú thích:
-- Nếu$(X,\mathcal{T})$ được gọi là không gian Topo thì $\mathcal{T}$ là một Topo của $X$. Các phần tử trong $\mathcal{T}$ được gọi là các tập mở trong $X$ đối với Topo $\mathcal{T}$, hay gọi là tập $\mathcal{T}-mở$.
+- Nếu $(X,\mathcal{T})$ được gọi là không gian Topo thì $\mathcal{T}$ là một Topo của $X$. Các phần tử trong $\mathcal{T}$ được gọi là các tập mở trong $X$ đối với Topo $\mathcal{T}$, hay gọi là tập $\mathcal{T}-mở$.
 - Ký hiệu $\mathcal{T}$ là họ tất cả các tập mở trong không gian metric $(X,d)$. Ta có $\mathcal{T}$ là một Topo trên $X$ và gọi là Topo metric phù hợp với metric $d$.
 - Mọi không gian metric đều là không gian Topo, tuy nhiên điều ngược lại thì không đúng bởi vì vẫn tồn tại một số không gian Topo nhưng không thể metric hóa.
 
@@ -39,7 +39,7 @@ Chú ý:
 - Lân cận của một điểm không nhất thiết là một tập mở, nhưng mỗi tập mở bất kỳ là lân cận của mọi điểm thuộc nó.
 - Nếu lân cận của một điểm là một tập mở thì ta nói đó là lân cận mở của điểm đó.
 
-Ví dụ: Một không gian Topo $(X,\mathcal{T})$, với $X$ = {a,b,c,d} và $\mathcal{T}$ = {$\emptyset$, {a,b}, {c}, {a,b,c}, $X$}. Cho A = {a,b} thì lân cận của A có thể là {a,b}, {a,b,c}, {a,b,d} và {a,b,c,d}. Trong đó, {a,b,d} không là lân cận mở.
+Ví dụ: Một không gian Topo $(X,\mathcal{T})$, với $X$ = {a,b,c,d} và $\mathcal{T}$ = {$`\emptyset`$, {a,b}, {c}, {a,b,c}, $X$}. Cho A = {a,b} thì lân cận của A có thể là {a,b}, {a,b,c}, {a,b,d} và {a,b,c,d}. Trong đó, {a,b,d} không là lân cận mở.
 
 ## Định nghĩa tập đóng
 
@@ -49,9 +49,9 @@ Cho $(E,d)$ là một không gian vector định chuẩn. Tập con $F \in E$ l�
 
 Tính chất:
 -  $\emptyset$ và $E$ là những tập đóng của $E$.
-- Với mọi tập $I$ và mọi họ các tập con đóng $(F_i)_{i \in I}$ của $E$, $\cap_{i \in I}F_i$ là một tập đóng của $E$.
-- Với mọi $n \in N^*$ và mọi tập đóng $(F_i)_{1 \leq i \leq n}$ của $E$, $\cup_{1 \leq i \leq n}F_i$ là tập đóng của $E$.
-- 
+- Với mọi tập $I$ và mọi họ các tập con đóng $`(F_i)_{i \in I}`$ của $E$, $\cap_{i \in I}$$`F_i`$ là một tập đóng của $E$.
+- Với mọi $n \in N^*$ và mọi tập đóng $`(F_i)_{1 \leq i \leq n}`$ của $E$, $\cup_{1 \leq i \leq n}F_i$ là tập đóng của $E$.
+
 Lưu ý: Hợp vô hạn các tập đóng trong $E$ có thể không là tập đóng trong $E$.
 
 ### 2. Không gian Topo
@@ -63,9 +63,7 @@ Tập con A của không gian Topo $(X,\mathcal{T})$ được gọi là tập đ
 - Giao của một họ con khác rỗng tùy ý các phần tử của $\mathcal{F}$ là phần tử của $\mathcal{F}$.
 - Hợp của hai phần tử bất kỳ của $\mathcal{F}$ là phần tử của $\mathcal{F}$.
 
-$$
-\mathcal{T} = \{U \subset X | U = X \backslash A, A \in \mathcal{F}\}
-$$
+$$\mathcal{T} = \{U \subset X | U = X \backslash A, A \in \mathcal{F}\}$$
 
 ## Khái niệm các loại điểm
 
