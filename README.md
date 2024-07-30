@@ -63,7 +63,7 @@ Tập con A của không gian Topo $(X,\mathcal{T})$ được gọi là tập đ
 - Giao của một họ con khác rỗng tùy ý các phần tử của $\mathcal{F}$ là phần tử của $\mathcal{F}$.
 - Hợp của hai phần tử bất kỳ của $\mathcal{F}$ là phần tử của $\mathcal{F}$.
 
-$$\mathcal{T} = \{U \subset X | U = X \backslash A, A \in \mathcal{F}\}$$
+$$\mathcal{T} = \\{U \subset X | U = X \backslash A, A \in \mathcal{F}\\}$$
 
 ## Khái niệm các loại điểm
 
@@ -72,7 +72,7 @@ Trong không gian Topo $(X, \mathcal{T})$. Cho $A$ là một tập con của kh�
 - $a$ là điểm ngoài của $A$ nếu tồn tại ít nhất một lân cận của $a$ nằm trong $X\backslash A$. Tập hợp các điểm ngoài của $A$ ký hiệu là $Ext(A)$.
 - $a$ là điểm dính của $A$ nếu mọi lân cận của $a$ giao với $A$ đều khác rỗng, tức là $\forall V \in \mathcal{V}_X(a), V \cap A \neq \emptyset$. Tập hợp các điểm dính của $A$ ký hiệu là $Adh(A)$.
 - $a$ là điểm biên của $A$ nếu $a$ đồng thời không là điểm trong và điểm ngoài của $A$. Hay nói cách khác là mọi lân cận của $a$ đều giao khác rỗng với $A$ và $X \backslash A$. Tập hợp các điểm biên của $A$ ký hiệu là $Fr(A) = Adh(A) \cap Adh(X\backslash A)$ còn được gọi là biên của $A$.
-- $a$ là điểm tụ của $A$ nếu mọi lân cận của $a$ giao với $A \backslash \{a\}$ đều khác rỗng, tức là $\forall V \in \mathcal{V}_X(a), V \cap A \backslash \{a\} \neq \emptyset$. Tập hợp các điểm tụ của $A$ ký hiệu là $Acc(A)$.
+- $a$ là điểm tụ của $A$ nếu mọi lân cận của $a$ giao với $A \backslash \\{a\\}$ đều khác rỗng, tức là $\forall V \in \mathcal{V}_X(a), V \cap A \backslash \\{a\\} \neq \emptyset$. Tập hợp các điểm tụ của $A$ ký hiệu là $Acc(A)$.
 - $a$ là điểm cô lập của $A$ nếu $a$ thuộc $A$ và không có điểm nào trong $A$ nằm trong bất kỳ lân cận nào của $a$, tức là $a \in A$ và $a \notin Acc(A)$. Ta gọi $A$ là tập rời rạc của $X$ nếu mọi phần tử trong $A$ đều là điểm cô lập.
 
 **Mệnh đề 1**: $Int(A)$ là tập mở lớn nhất (theo nghĩa bao hàm) có bao hàm $A$.
@@ -86,8 +86,8 @@ Trong không gian Topo $(X, \mathcal{T})$. Cho $A$ là một tập con của kh�
 
 **Hệ quả**: $A$ là tập đóng khi và chỉ khi $A = Adh(A)$.
 - **Chứng minh**:
--- Nếu $A$ là tập đóng thì các điểm trong $A$ đều là điểm dính, do đó $Adh(A) = A$.
--- Nếu $Adh(A) = A$, cần chứng minh $Adh(A)$ là tập đóng để kết luận được $A$ là một tập đóng.
+  - Nếu $A$ là tập đóng thì các điểm trong $A$ đều là điểm dính, do đó $Adh(A) = A$.
+  - Nếu $Adh(A) = A$, cần chứng minh $Adh(A)$ là tập đóng để kết luận được $A$ là một tập đóng.
 
 ## Định nghĩa trù mật 
 
